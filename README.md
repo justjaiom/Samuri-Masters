@@ -7,7 +7,7 @@ Samuri mastes is a 2D game that displays sprites on a canvas using JavaScript. T
   * screen size adaptibility
   * custom title screen
   * 2 player ui 
-  * custom sprite animations
+  * reactive sprite animations
   
   
  ## Pictures
