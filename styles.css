@@ -1,0 +1,66 @@
+#titlescreen{
+    display:contents;
+}
+
+#title_bk_img {
+    background-image: url(/img/titleImg/title.background.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#title_text {
+    margin-left: 3%;
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    color: #818cf8;
+    size: 40px;
+    align-items: center;
+}
+
+#play {
+    margin-left: 50%;
+    margin-top: 20%;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    background-color: #818cf8;
+    color: #fff;
+}
+
+#play:hover {
+    transform: translateY(-0.25em);
+}
+
+#game{
+    display:none;
+
+}
+
+#timer{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid white;
+}
+
+#displayText{
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    padding-left: 20%;
+}
+
